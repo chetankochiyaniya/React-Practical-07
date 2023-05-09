@@ -1,0 +1,156 @@
+.sign-up-page {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  border: none;
+  border-radius: 15px;
+}
+
+.sign-up {
+  width: 40%;
+}
+
+.asset {
+  width: 60%;
+}
+
+.asset-mobile {
+  display: none;
+}
+
+.photo-input {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.preview-img {
+  border: 1px solid;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.photo-preview {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+input {
+  background-color: rgb(247, 221, 185);
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 5px;
+  height: 35px;
+  margin: 15px;
+  width: 90%;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+label {
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.btn-group {
+  margin: 15px;
+}
+
+.submit-btn,
+.reset-btn {
+  width: 25%;
+  height: 45px;
+  margin-right: 15px;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: rgb(46, 162, 235);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.reset-btn {
+  background-color: rgb(255, 0, 0);
+}
+
+.asset img {
+  padding-left: 15px;
+  width: 95%;
+}
+
+.asset-mobile {
+  display: hidden;
+}
+
+.error-msg {
+  color: rgb(255, 0, 0);
+  padding-left: 15px;
+  font-size: 12px;
+  max-width: 225px;
+}
+
+.img-error-msg {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sign-up-page {
+    flex-direction: column;
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sign-up {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .asset {
+    width: 100%;
+  }
+
+  .asset img {
+    padding: 15px;
+    width: 40%;
+  }
+
+  .sign-up-title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .sign-up-form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .asset-mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .asset-pc {
+    display: none;
+  }
+}
