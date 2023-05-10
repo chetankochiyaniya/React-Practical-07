@@ -24,7 +24,8 @@ function Home() {
       <div className='registration-detail'>
         Hello {name}, 
         <br/> you are registered with  
-        <br/> email id - {email} and phone number - {phoneNumber} 
+        <br/> email id - {email} and 
+        <br/> phone number - {phoneNumber} 
       </div>
     </div>
   );
