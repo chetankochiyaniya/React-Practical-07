@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# React-Practical-07 
+## Practical-07 : User management app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#
 
-## Available Scripts
+### For Live demo (Part : 02 Functional specifications) : 
+https://react-practical-7-simform.netlify.app/
 
-In the project directory, you can run:
+### OR
 
+#### (click this link to show output images) : 
+https://drive.google.com/drive/folders/17rLDmZQpygh_qLIQWIYs5cr38fy532Jb?usp=share_link
+#
+
+# Directory structure
+
+![Screenshot 2023-05-10 at 2 21 13 PM](https://github.com/chetankochiyaniya/React-Practical-07/assets/60025285/301b5deb-181e-4209-855d-7afaf2c05f94)
+
+
+
+#
+
+<pre>
+for git: two branch:
+    1)"main" - main branch 
+    2) "temp" - working branch
+</pre>
+#
+
+# To run the React App 
+
+(you must have node installed)
+
+### Use following commands :
+
+<pre>
+To Installing dependencies
+### `npm install`
+
+Runs the app in the development mode.
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+Builds the app for production to the `build` folder.
 ### `npm run build`
+</pre>
+#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Output :
+<img src="https://github.com/chetankochiyaniya/React-Practical-07/blob/d48e6497b2e05bd07987c7cc295b7949e0d69807/outputs/lg-signup-page.png" alt="Practical Output Image" >
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#
 
-### `npm run eject`
+<img src="https://github.com/chetankochiyaniya/React-Practical-07/blob/d48e6497b2e05bd07987c7cc295b7949e0d69807/outputs/lg-validation.png" alt="Practical Output Image" >
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://github.com/chetankochiyaniya/React-Practical-07/blob/d48e6497b2e05bd07987c7cc295b7949e0d69807/outputs/lg-home-page.png" alt="Practical Output Image" >
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#
 
-## Learn More
+# Mobile View
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<pre>
+<img src="https://github.com/chetankochiyaniya/React-Practical-07/blob/d48e6497b2e05bd07987c7cc295b7949e0d69807/outputs/sm-signup-page.png" alt="Practical Output Image" width="350px" />       <img src="https://github.com/chetankochiyaniya/React-Practical-07/blob/d48e6497b2e05bd07987c7cc295b7949e0d69807/outputs/sm-validation.png" width="350px" alt="Practical Output Image"/>
+</pre>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<pre>
+<img src="https://github.com/chetankochiyaniya/React-Practical-07/blob/d48e6497b2e05bd07987c7cc295b7949e0d69807/outputs/sm-home-page.png" alt="Practical Output Image" width="350px" />       <img src="https://github.com/chetankochiyaniya/React-Practical-07/blob/d48e6497b2e05bd07987c7cc295b7949e0d69807/outputs/sm-with-deatils.png" width="350px" alt="Practical Output Image"/>
+</pre>
