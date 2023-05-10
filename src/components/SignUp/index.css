@@ -5,6 +5,7 @@
   max-width: 1200px;
   border: none;
   border-radius: 15px;
+  align-items: center;
 }
 
 .sign-up {
